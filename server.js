@@ -16,7 +16,7 @@ app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
 app.get('/article-one', function (req, res) {
-  res.send(path.join("Article one reqested will be served here"));
+  res.sendFile(path.join(__dirname,'ui','article-one.html'));
 });
 app.get('/article-Two', function (req, res) {
   res.send(path.join("Article two reqested will be served here"));
