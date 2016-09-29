@@ -23,6 +23,18 @@ var ArticleOne= {
             This is my first article.This is my first article.This is my first article.This is my first article.
         </p>`
 };
+var ArticleTwo={
+    title:'B Prathyusha | Article Two',
+    heading: 'Article Two',
+    date: 'Sept 29th 2016',
+    content:'This is my Second Article.'
+};
+var ArticleTHree={
+    title:'B Prathyusha | Article Three',
+    heading: 'Article Three',
+    date: 'Sept 29th 2016',
+    content:'This is my Third Article.'
+};
 function CreateTemplate(data) {
     var title = data.title;
     var heading = data.heading;
